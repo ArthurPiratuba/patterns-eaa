@@ -1,6 +1,6 @@
 import Money from "../src/Money";
 
-test("Deve testar uma moeda", function () {
+test("Deve obter um valor inteiro", function () {
     let money = new Money(458.6541);
     expect(money.getInteger()).toBe(4586541);
 });
